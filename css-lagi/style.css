@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: color 500ms;
+  color: white;
+}
+a:hover {
+  color: red;
+}
+
+nav {
+  background-color: dodgerblue;
+}
+li {
+  display: inline;
+}
+span {
+  display: block;
+  margin: 10px;
+}

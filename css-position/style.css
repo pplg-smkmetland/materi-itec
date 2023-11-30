@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#scroll {
+  margin-top: 100vh;
+  min-height: 50vh;
+  border: 2px solid maroon;
+}
+
+nav {
+  background: blue;
+  padding: 2rem;
+
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.tombol-bawah,
+.tombol-atas {
+  background: grey;
+  padding: 2rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.tombol-atas {
+  bottom: 4rem;
+}
+
+/* .kotak {
+padding: 2rem;
+max-width: 20ch;
+aspect-ratio: 1 / 1;
+border: 2px solid red;
+}
+
+.kotak-1 {
+position: absolute;
+top: 0;
+left: 100px;
+}
+
+.kotak-2 {
+position: fixed;
+left: 50%;
+bottom: 50%;
+}
+
+.kotak-3 {
+position: sticky;
+left: 50%;
+top: 0;
+}
+
+.kotak-4 {
+position: relative;
+}
+
+.kotak-anak {
+padding: 2rem;
+border: 2px solid blue;
+position: absolute;
+top: 0;
+} */
