@@ -1,0 +1,42 @@
+div{
+    border: 2px solid black;
+    margin: 1cm 2cm;
+    padding: 1rem;
+}
+
+.nama1{
+    background-color: red; 
+    /* transform: scale(1.1);  */
+}
+
+p.nama1{
+    text-decoration: underline;
+}
+
+#iniid{
+    font-weight: bolder;
+}
+
+.nama2{
+    font-size: 2rem;
+    /* transform: scale(1.1); */
+}
+
+.nama2 p{
+    font-style: italic;
+}
+
+.nama2 > p{
+    color: blue;
+}
+
+.nama1 , .nama2{
+    transform: scale(1.1);
+}
+
+.nama1::after {
+    content: "";
+    background: dodgerblue;
+    width: 100px;
+    height: 100px;
+}
