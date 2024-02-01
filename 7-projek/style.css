@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -27,6 +31,7 @@ header,
 main {
   padding: 2rem;
   max-width: 75ch;
+  margin: auto;
 }
 
 ul {
@@ -35,8 +40,20 @@ ul {
   list-style: none;
 }
 
-li {
+.tugas {
   padding: 2rem;
   border: 2px solid black;
   margin-bottom: 1rem;
+
+  display: flex;
+  /* ke tengah secara vertikal */
+  align-items: center;
+  /* bikin jarak antar anak flex*/
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.tugas button {
+  margin: 0;
+  border-radius: 0.5rem;
 }
