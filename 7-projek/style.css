@@ -40,7 +40,7 @@ ul {
   list-style: none;
 }
 
-.tugas {
+.todo {
   padding: 2rem;
   border: 2px solid black;
   margin-bottom: 1rem;
@@ -53,7 +53,7 @@ ul {
   border-radius: 0.5rem;
 }
 
-.tugas button {
+.todo-button {
   margin: 0;
   border-radius: 0.5rem;
 }

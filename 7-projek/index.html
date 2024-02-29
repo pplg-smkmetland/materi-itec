@@ -11,39 +11,27 @@
     <header>
       <h1>Todo List pertama gweh</h1>
 
-      <form>
-        <label for="tugas">Tambahkan tugas</label>
-        <input type="text" id="tugas" placeholder="tugas kamuh" />
+      <form class="todo-form">
+        <label for="todo-input">Tambahkan tugas</label>
+        <input
+          type="text"
+          id="todo-input"
+          name="todo-input"
+          placeholder="tugas kamuh"
+        />
         <button type="submit">Tambahkan tugas</button>
       </form>
     </header>
 
     <main>
       <h2>Yang belum selesai</h2>
-      <ul>
-        <li class="tugas">
-          <span>Tugas saya</span>
-          <button>Selesaikan tugas</button>
-        </li>
-        <li class="tugas">
-          <span>Tugas saya</span>
-          <button>Selesaikan tugas</button>
-        </li>
-      </ul>
+      <ul class="todo-list"></ul>
 
       <h2>Yang sudah selesai</h2>
-      <ul>
-        <li class="tugas">
-          <span>Tugas saya</span>
-          <button>Selesaikan tugas</button>
-        </li>
-        <li class="tugas">
-          <span>Tugas saya</span>
-          <button>Selesaikan tugas</button>
-        </li>
-      </ul>
+      <ul class="todo-list"></ul>
     </main>
 
     <!-- cara masukin script JS ke HTML gimana? -->
+    <script src="script.js"></script>
   </body>
 </html>
